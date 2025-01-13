@@ -1,5 +1,6 @@
 
 import Services from '../../Services/Services';
+import ChooseUs from '../ChooseUs/ChooseUs';
 import Header from '../Header/Header';
 import HeaderBottom from '../HeaderBottom/HeaderBottom';
 
@@ -10,6 +11,7 @@ const Home = () => {
             <Header></Header>
             <HeaderBottom></HeaderBottom>
             <Services></Services>
+            <ChooseUs></ChooseUs>
         </div>
     );
 };

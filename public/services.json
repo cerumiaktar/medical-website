@@ -18,35 +18,5 @@
         "id": 4,
         "img": "https://i.ibb.co.com/qJGx4Xp/Virtual-Consults-1.png",
         "title": "Virtual Consults"
-    },
-    {
-        "id": 5,
-        "img": "https://example.com/images/dentist.jpg",
-        "title": "Dentist"
-    },
-    {
-        "id": 6,
-        "img": "https://example.com/images/neurologist.jpg",
-        "title": "Neurologist"
-    },
-    {
-        "id": 7,
-        "img": "https://example.com/images/orthopedist.jpg",
-        "title": "Orthopedist"
-    },
-    {
-        "id": 8,
-        "img": "https://example.com/images/psychiatrist.jpg",
-        "title": "Psychiatrist"
-    },
-    {
-        "id": 9,
-        "img": "https://example.com/images/ophthalmologist.jpg",
-        "title": "Ophthalmologist"
-    },
-    {
-        "id": 10,
-        "img": "https://example.com/images/gynecologist.jpg",
-        "title": "Gynecologist"
     }
 ]

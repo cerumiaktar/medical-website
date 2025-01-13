@@ -1,9 +1,13 @@
 
 
-const Service = () => {
+const Service = ({ service }) => {
+    const { img, title } = service;
     return (
         <div>
-            <h1>This is service page</h1>
+            <div className="bg-white shadow-lg py-8 mt-4 border rounded-xl text-center">
+                <img className="w-28 mx-auto" src={img} alt="" />
+                <h1 className="text-xl font-medium">{title}</h1>
+            </div>
         </div>
     );
 };

@@ -11,8 +11,8 @@ const Header = () => {
                 {/* <div className="hero-overlay bg-opacity-60"></div> */}
                 <div className="hero-content text-neutral-content text-center">
                     <div className="">
-                        <h1 className="mb-5 text-5xl mx-auto w-7/12 font-bold">Your Health, Our Priority Trusted Care for Every Patient</h1>
-                        <p className="mb-5 w-6/12 mx-auto">
+                        <h1 className="mb-5 text-3xl md:text-5xl mx-auto md:w-7/12  font-bold">Your Health, Our Priority Trusted Care for Every Patient</h1>
+                        <p className="mb-5 md:w-6/12 mx-auto">
                         We are committed to providing trusted, compassionate care for every patient, ensuring that you receive the attention and expertise you deserve for a healthier, happier life.
                         </p>
                         <button className="btn bg-white text-lg">Get Started</button>

@@ -5,7 +5,7 @@ import { FaPersonPregnant } from "react-icons/fa6";
 const HeaderBottom = () => {
     return (
         <div className="mt-12">
-            <div className="flex justify-between">
+            <div className="flex flex-col md:flex-row justify-between">
                 <div className="bg-white space-y-2 rounded-lg shadow-lg py-6 border text-center">
                     <p className="text-5xl flex justify-center"><FaAmbulance /></p>
                     <h1 className="text-xl font-medium">24/7 Emergency Services</h1>
