@@ -5,7 +5,7 @@ const Review = () => {
         <div className="mb-12">
             <h1 className="text-2xl font-medium text-center">Customer Stories That Inspire</h1>
             <div className="flex gap-8 mt-4">
-                <div className="border border-[#46C9BA] p-4 rounded-lg">
+                <div className="border border-[#46C9BA] p-4 rounded-lg bg-white shadow-lg">
                     <div className="flex gap-4 items-center">
                         <div className="avatar">
                             <div className="bg-gradient-to-r from-[#494949] to-[#46C9BA] w-10 rounded-full ring ring-offset-2">
@@ -19,7 +19,7 @@ const Review = () => {
                     </div>
                     <p className="text-[#494949]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
-                <div className="border border-[#46C9BA] p-4 rounded-lg">
+                <div className="border border-[#46C9BA] p-4 rounded-lg bg-white shadow-lg">
                     <div className="flex gap-4 items-center">
                         <div className="avatar">
                             <div className="bg-gradient-to-r from-[#494949] to-[#46C9BA] w-10 rounded-full ring ring-offset-2">
@@ -33,7 +33,7 @@ const Review = () => {
                     </div>
                     <p className="text-[#494949]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
-                <div className="border border-[#46C9BA] p-4 rounded-lg">
+                <div className="border border-[#46C9BA] p-4 rounded-lg bg-white shadow-lg">
                     <div className="flex gap-4 items-center">
                         <div className="avatar">
                             <div className="bg-gradient-to-r from-[#494949] to-[#46C9BA] w-10 rounded-full ring ring-offset-2">

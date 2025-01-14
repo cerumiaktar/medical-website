@@ -5,6 +5,7 @@ import BestDoctors from '../BestDoctors/BestDoctors';
 import ChooseUs from '../ChooseUs/ChooseUs';
 import Header from '../Header/Header';
 import HeaderBottom from '../HeaderBottom/HeaderBottom';
+import HealthTips from '../HealthTips/HealthTips';
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
             <ChooseUs></ChooseUs>
             <BestDoctors></BestDoctors>
             <Review></Review>
+            <HealthTips></HealthTips>
         </div>
     );
 };
