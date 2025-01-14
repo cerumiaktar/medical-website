@@ -1,5 +1,6 @@
 
 import Services from '../../Services/Services';
+import Review from '../BestDoctor/Review/Review';
 import BestDoctors from '../BestDoctors/BestDoctors';
 import ChooseUs from '../ChooseUs/ChooseUs';
 import Header from '../Header/Header';
@@ -14,6 +15,7 @@ const Home = () => {
             <Services></Services>
             <ChooseUs></ChooseUs>
             <BestDoctors></BestDoctors>
+            <Review></Review>
         </div>
     );
 };
