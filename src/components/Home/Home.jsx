@@ -1,6 +1,6 @@
 
 import Services from '../../Services/Services';
-import Review from '../BestDoctor/Review/Review';
+import Review from '../Review/Review';
 import BestDoctors from '../BestDoctors/BestDoctors';
 import ChooseUs from '../ChooseUs/ChooseUs';
 import Header from '../Header/Header';

@@ -22,5 +22,101 @@
         "img": "https://i.ibb.co.com/FXBkZWg/p-4.png",
         "name": "Dr. James Wilson",
         "designation": "Orthopedic Surgeon"
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co.com/wWQ6KX4/p-5.png",
+        "name": "Dr. Sophia Bennett",
+        "designation": "Cardiologist"
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co.com/gvKqYm2/p-6.png",
+        "name": "Dr. Liam Anderson",
+        "designation": "Pediatrician"
+    },
+    {
+        "id": 7,
+        "img": "https://i.ibb.co.com/yBXQyMm/p-7-2.png",
+        "name": "Dr. Olivia Martin",
+        "designation": "Dermatologist"
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co.com/c824y55/p-8-2.png",
+        "name": "Dr. Noah Smith",
+        "designation": "Orthopedic Surgeon"
+    },
+    {
+        "id": 9,
+        "img": "https://i.ibb.co.com/7RPxBWP/p-9-2.png",
+        "name": "Dr. Emma Johnson",
+        "designation": "Neurologist"
+    },
+    {
+        "id": 10,
+        "img": "https://i.ibb.co.com/KjC1Cg9/P-10.png",
+        "name": "Dr. James Wilson",
+        "designation": "General Physician"
+    },
+    {
+        "id": 11,
+        "img": "https://i.ibb.co.com/wQ19GWF/P-11.png",
+        "name": "Dr. Mia Davis",
+        "designation": "ENT Specialist"
+    },
+    {
+        "id": 12,
+        "img": "https://i.ibb.co.com/JCQhyL5/P-12-2.png",
+        "name": "Dr. Ethan Brown",
+        "designation": "Oncologist"
+    },
+    {
+        "id": 13,
+        "img": "https://i.ibb.co.com/rcfhM5m/P-13-2.png",
+        "name": "Dr. Ava Moore",
+        "designation": "Gastroenterologist"
+    },
+    {
+        "id": 14,
+        "img": "https://i.ibb.co.com/4SN9FVH/P-14-2.png",
+        "name": "Dr. Lucas Taylor",
+        "designation": "Pulmonologist"
+    },
+    {
+        "id": 15,
+        "img": "https://i.ibb.co.com/ZN1tQCx/P-15.png",
+        "name": "Dr. Isabella Jackson",
+        "designation": "Psychiatrist"
+    },
+    {
+        "id": 16,
+        "img": "https://i.ibb.co.com/Bj1Pzw1/P-16.png",
+        "name": "Dr. Mason Lee",
+        "designation": "Nephrologist"
+    },
+    {
+        "id": 17,
+        "img": "https://i.ibb.co.com/FXBkZWg/p-4.png",
+        "name": "Dr. Harper White",
+        "designation": "Hematologist"
+    },
+    {
+        "id": 18,
+        "img": "https://i.ibb.co.com/yBXQyMm/p-7-2.png",
+        "name": "Dr. Logan Harris",
+        "designation": "Rheumatologist"
+    },
+    {
+        "id": 19,
+        "img": "https://i.ibb.co.com/KjC1Cg9/P-10.png",
+        "name": "Dr. Aria Lewis",
+        "designation": "Endocrinologist"
+    },
+    {
+        "id": 20,
+        "img": "https://i.ibb.co.com/kSCXb8S/p-1.png",
+        "name": "Dr. Elijah Walker",
+        "designation": "Urologist"
     }
 ]
