@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "img": "https://via.placeholder.com/150",
+        "title": "Stay Hydrated",
+        "category": "General Health",
+        "description": "Drink at least 8 glasses of water daily to keep your body hydrated and maintain optimal health."
+    },
+    {
+        "id": 2,
+        "img": "https://via.placeholder.com/150",
+        "title": "Eat a Balanced Diet",
+        "category": "Nutrition",
+        "description": "Include a variety of fruits, vegetables, lean proteins, and whole grains in your meals."
+    },
+    {
+        "id": 3,
+        "img": "https://via.placeholder.com/150",
+        "title": "Exercise Regularly",
+        "category": "Fitness",
+        "description": "Engage in at least 30 minutes of physical activity, 5 days a week to stay fit."
+    },
+    {
+        "id": 4,
+        "img": "https://via.placeholder.com/150",
+        "title": "Get Enough Sleep",
+        "category": "Mental Health",
+        "description": "Aim for 7-9 hours of quality sleep every night for better mental and physical health."
+    },
+    {
+        "id": 5,
+        "img": "https://via.placeholder.com/150",
+        "title": "Practice Mindfulness",
+        "category": "Mental Health",
+        "description": "Take a few minutes daily for meditation or deep breathing to reduce stress and improve focus."
+    },
+    {
+        "id": 6,
+        "img": "https://via.placeholder.com/150",
+        "title": "Avoid Sugary Drinks",
+        "category": "Nutrition",
+        "description": "Replace soda and sugary drinks with water or herbal tea to cut down on unnecessary calories."
+    },
+    {
+        "id": 7,
+        "img": "https://via.placeholder.com/150",
+        "title": "Include Healthy Fats",
+        "category": "Nutrition",
+        "description": "Add sources of healthy fats like avocado, nuts, and olive oil to your diet for better heart health."
+    },
+    {
+        "id": 8,
+        "img": "https://via.placeholder.com/150",
+        "title": "Take Regular Breaks",
+        "category": "Fitness",
+        "description": "Step away from your desk every hour to stretch and move to prevent stiffness and fatigue."
+    },
+    {
+        "id": 9,
+        "img": "https://via.placeholder.com/150",
+        "title": "Maintain Good Posture",
+        "category": "General Health",
+        "description": "Sit and stand with a straight back to avoid chronic neck and back pain."
+    },
+    {
+        "id": 10,
+        "img": "https://via.placeholder.com/150",
+        "title": "Limit Screen Time",
+        "category": "General Health",
+        "description": "Reduce exposure to screens before bed to improve sleep quality and prevent eye strain."
+    },
+    {
+        "id": 11,
+        "img": "https://via.placeholder.com/150",
+        "title": "Snack Smart",
+        "category": "Nutrition",
+        "description": "Choose healthy snacks like fruits, nuts, or yogurt instead of processed junk food."
+    },
+    {
+        "id": 12,
+        "img": "https://via.placeholder.com/150",
+        "title": "Wear Sunscreen",
+        "category": "Skincare",
+        "description": "Protect your skin from harmful UV rays by wearing sunscreen every day, even when it's cloudy."
+    },
+    {
+        "id": 13,
+        "img": "https://via.placeholder.com/150",
+        "title": "Stay Socially Active",
+        "category": "Mental Health",
+        "description": "Spend time with friends and family to boost your mood and overall mental health."
+    },
+    {
+        "id": 14,
+        "img": "https://via.placeholder.com/150",
+        "title": "Schedule Regular Check-Ups",
+        "category": "General Health",
+        "description": "Visit your doctor annually to monitor your health and catch potential issues early."
+    }
+]

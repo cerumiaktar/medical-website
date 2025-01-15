@@ -18,5 +18,55 @@
         "id": 4,
         "img": "https://i.ibb.co.com/qJGx4Xp/Virtual-Consults-1.png",
         "title": "Virtual Consults"
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co.com/zG66kGP/image-1.png",
+        "title": "General Practitioner"
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co.com/bd8cL1K/image-2.png",
+        "title": "Cardiologist"
+    },
+    {
+        "id": 7,
+        "img": "https://i.ibb.co.com/SKX1cmt/image-1-1.png",
+        "title": "Dermatologist"
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co.com/LCxSKf5/image-1-2.png",
+        "title": "Pediatrician"
+    },
+    {
+        "id": 9,
+        "img": "https://i.ibb.co.com/n61nyL4/image-2-1.png",
+        "title": "Dentist"
+    },
+    {
+        "id": 10,
+        "img": "https://i.ibb.co.com/Wg7dC4K/image-3.png",
+        "title": "Neurologist"
+    },
+    {
+        "id": 11,
+        "img": "https://i.ibb.co.com/L6fm6nk/image-4.png",
+        "title": "Orthopedist"
+    },
+    {
+        "id": 12,
+        "img": "https://i.ibb.co.com/2nKYT2F/image-5.png",
+        "title": "Psychiatrist"
+    },
+    {
+        "id": 13,
+        "img": "https://i.ibb.co.com/BjCXj1k/image-6.png",
+        "title": "Ophthalmologist"
+    },
+    {
+        "id": 14,
+        "img": "https://i.ibb.co.com/g6M1s3T/image-7.png",
+        "title": "Gynecologist"
     }
 ]
