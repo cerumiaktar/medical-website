@@ -4,7 +4,7 @@ const HealthTips = () => {
     return (
         <div className="mb-12">
             <h1 className="text-2xl font-medium text-center">Health Tips</h1>
-            <div className="flex gap-6 mt-4">
+            <div className="flex flex-col md:flex-row gap-6 mt-4">
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure>
                         <img

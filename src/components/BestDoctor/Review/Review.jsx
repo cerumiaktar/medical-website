@@ -4,7 +4,7 @@ const Review = () => {
     return (
         <div className="mb-12">
             <h1 className="text-2xl font-medium text-center">Customer Stories That Inspire</h1>
-            <div className="flex gap-8 mt-4">
+            <div className="flex-col flex md:flex-row gap-8 mt-4">
                 <div className="border border-[#46C9BA] p-4 rounded-lg bg-white shadow-lg">
                     <div className="flex gap-4 items-center">
                         <div className="avatar">
