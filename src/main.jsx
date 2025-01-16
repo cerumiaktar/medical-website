@@ -13,6 +13,7 @@ import Login from './components/Login/Login.jsx';
 import SignUp from './components/SignUp/SignUp.jsx';
 import Doctors from './components/Doctors/Doctors.jsx';
 import AllServices from './components/AllServices/AllServices.jsx';
+import Contact from './components/Contact/Contact.jsx';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path:'/services',
         element:<AllServices></AllServices>
+      },
+      {
+        path:'/contact',
+        element:<Contact></Contact>
       }
     ]
   },
