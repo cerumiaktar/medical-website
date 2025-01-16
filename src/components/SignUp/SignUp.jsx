@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const SignUp = () => {
@@ -30,11 +31,12 @@ const SignUp = () => {
                             </div>
                             <div className="flex items-center gap-2 mt-4">
                                 <input type="checkbox"  className="checkbox checkbox-sm" />
-                                <p>agree our <span className="text-blue-800">terms & condition</span></p>
+                                <p>agree our <Link to='/terms' className="text-blue-800">terms & condition</Link></p>
                             </div>
                             <div className="form-control">
                                 <button className="btn btn-primary">Sign Up</button>
                             </div>
+                            <p>Already have an account <Link to='/login' className="text-blue-600 font-medium">Login</Link></p>
                         </form>
                     </div>
                 </div>

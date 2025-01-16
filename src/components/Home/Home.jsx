@@ -1,5 +1,5 @@
 
-import Services from '../../Services/Services';
+import Services from '../Services/Services';
 import Review from '../Review/Review';
 import BestDoctors from '../BestDoctors/BestDoctors';
 import ChooseUs from '../ChooseUs/ChooseUs';

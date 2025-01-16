@@ -15,6 +15,7 @@ import Doctors from './components/Doctors/Doctors.jsx';
 import AllServices from './components/AllServices/AllServices.jsx';
 import Contact from './components/Contact/Contact.jsx';
 import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
+import Terms from './components/Terms/Terms.jsx';
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
       {
         path:'/contact',
         element:<Contact></Contact>
+      },
+      {
+        path:'/terms',
+        element:<Terms></Terms>
       }
     ]
   },
