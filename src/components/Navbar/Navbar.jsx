@@ -31,14 +31,14 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-base-100 text-lg rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            className="menu menu-sm dropdown-content bg-base-100 text-lg rounded-box z-[1] mt-3 dark:text-[#333333] w-52 p-2 shadow">
                             {links}
                         </ul>
                     </div>
                     <img className="w-16" src="https://i.ibb.co.com/TY60YHS/medical-logo-1.png" alt="" />
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1 text-lg">
+                    <ul className="menu menu-horizontal px-1 dark:text-[#333333] text-lg">
                         {links}
                     </ul>
                 </div>
