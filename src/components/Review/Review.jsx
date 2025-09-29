@@ -2,8 +2,8 @@
 
 const Review = () => {
     return (
-        <div className="mb-12">
-            <h1 className="text-2xl font-medium text-center">Customer Stories That Inspire</h1>
+        <div className="mb-16">
+            <h1 className="text-2xl font-medium text-center dark:text-black">Customer Stories That Inspire</h1>
             <div className="flex-col flex md:flex-row gap-8 mt-4">
                 <div className="border border-[#46C9BA] p-4 rounded-lg bg-white shadow-lg">
                     <div className="flex gap-4 items-center">
@@ -13,8 +13,8 @@ const Review = () => {
                             </div>
                         </div>
                         <div >
-                            <h2 className="text-lg font-medium">Leslie Alexander</h2>
-                            <p>Teacher</p>
+                            <h2 className="text-lg font-medium dark:text-black">Leslie Alexander</h2>
+                            <p className="dark:text-[#333333]">Teacher</p>
                         </div>
                     </div>
                     <p className="text-[#494949]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -27,8 +27,8 @@ const Review = () => {
                             </div>
                         </div>
                         <div >
-                            <h2 className="text-lg font-medium">Leslie Alexander</h2>
-                            <p>Teacher</p>
+                            <h2 className="text-lg font-medium dark:text-black">Leslie Alexander</h2>
+                            <p className="dark:text-[#333333]">Teacher</p>
                         </div>
                     </div>
                     <p className="text-[#494949]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -41,8 +41,8 @@ const Review = () => {
                             </div>
                         </div>
                         <div >
-                            <h2 className="text-lg font-medium">Leslie Alexander</h2>
-                            <p>Teacher</p>
+                            <h2 className="text-lg font-medium dark:text-black">Leslie Alexander</h2>
+                            <p className="dark:text-[#333333]">Teacher</p>
                         </div>
                     </div>
                     <p className="text-[#494949]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
