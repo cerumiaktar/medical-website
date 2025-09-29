@@ -17,8 +17,8 @@ const Services = () => {
     return (
         <div className="mt-12 mb-12">
             <div className="flex justify-between items-center">
-                <h1 className="text-2xl font-medium">Our Services</h1>
-                <p className="text-xl"><Link to='/services'>See all</Link></p>
+                <h1 className="text-2xl dark:text-black font-medium">Our Services</h1>
+                <p className="text-xl dark:text-[#333333]"><Link to='/services'>See all</Link></p>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                 {
