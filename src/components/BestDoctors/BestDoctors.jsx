@@ -16,8 +16,8 @@ const BestDoctors = () => {
     return (
         <div className="mb-12">
             <div className="flex justify-between items-center mb-6">
-                <h1 className="text-2xl font-medium">Best Doctors</h1>
-                <p className="text-xl"><Link to='/doctors'>See all</Link></p>
+                <h1 className="text-2xl font-medium dark:text-black">Best Doctors</h1>
+                <p className="text-xl dark:text-[#333333]"><Link to='/doctors'>See all</Link></p>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 {
