@@ -7,7 +7,7 @@ const Login = () => {
             <div className="hero bg-base-200 dark:bg-white min-h-screen">
                 <div className="hero-content flex-col">
                     <div className="text-center ">
-                        <h1 className="text-5xl font-bold">Login now!</h1>
+                        <h1 className="text-5xl font-bold dark:text-black">Login now!</h1>
                     </div>
                     <div className="card bg-base-100 dark:bg-white w-full max-w-sm shrink-0 shadow-2xl">
                         <form className="card-body">
@@ -29,7 +29,7 @@ const Login = () => {
                             <div className="form-control mt-6">
                                 <button className="btn bg-[#46C9BA] dark:text-black dark:border-none dark:hover:text-white">Login</button>
                             </div>
-                            <p>Do not have account? <Link to='/signUp' className="text-blue-600 font-medium">SignUp</Link> </p>
+                            <p className="dark:text-[#333333]">Do not have account? <Link to='/signUp' className="text-blue-600 font-medium">SignUp</Link> </p>
                         </form>
                     </div>
                 </div>
