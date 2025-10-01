@@ -4,7 +4,7 @@ const Doctor = ({doctor}) => {
     const {img, name,designation} = doctor;
     return (
         <div>
-            <div className="card card-compact bg-base-100 shadow-xl border">
+            <div className="card card-compact bg-base-100 dark:bg-white dark:text-black shadow-xl border">
                             <figure>
                                 <img
                                     src={img}

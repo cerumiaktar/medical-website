@@ -12,7 +12,7 @@ const Doctors = () => {
     } ,[])
     return (
         <div className="container mx-auto mt-8 mb-12">
-            <h1 className="text-2xl font-medium text-center">Doctors</h1>
+            <h1 className="text-2xl font-medium text-center dark:text-black">Doctors</h1>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8">
                 {
                     allDoctors.map(doctor =><Doctor doctor={doctor}></Doctor>)
