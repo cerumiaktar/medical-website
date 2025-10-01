@@ -6,7 +6,7 @@ const AllService = ({ allService }) => {
         <div>
             <div className="bg-white shadow-lg py-8 mt-4 border rounded-xl text-center">
                 <img className="w-28 mx-auto" src={img} alt="" />
-                <h1 className="text-xl font-medium">{title}</h1>
+                <h1 className="text-xl font-medium dark:text-black">{title}</h1>
             </div>
         </div>
     );
