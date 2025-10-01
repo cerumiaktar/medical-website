@@ -12,7 +12,7 @@ const AllServices = () => {
     }, [])
     return (
         <div className="container mx-auto mt-8 mb-12">
-            <h1 className="text-2xl font-medium text-center">All Services</h1>
+            <h1 className="text-2xl font-medium text-center dark:text-black">All Services</h1>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {
                     allServices.map((allService, idx) => <AllService key={idx} allService={allService}></AllService>)
