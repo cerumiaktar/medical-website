@@ -9,9 +9,7 @@ const Contact = () => {
                     <p>Address:Dhaka, Bangladesh</p>
                     <p>Phone: ++8801323456789</p>
                     <p>Email:info@medical.com</p>
-                    <div className="card-actions">
-                        <button className="btn bg-white border-none dark:text-black dark:hover:text-white">Contact Us</button>
-                    </div>
+                    
                 </div>
             </div>
         </div>
