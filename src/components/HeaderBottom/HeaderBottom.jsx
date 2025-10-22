@@ -15,7 +15,7 @@ const HeaderBottom = () => {
                         <p>Immediate and life-saving medical attention with a dedicated emergency</p>
                     </div>
                 </div>
-                <div className="card bg-base-100 dark:bg-white dark:text-black shadow-2xl">
+                <div className="card bg-base-100 dark:bg-white border-2 boder-[#02AB98] dark:text-black shadow-2xl">
                     <figure className="px-10 pt-10 text-5xl">
                         <LuHospital />
                     </figure>
@@ -24,7 +24,7 @@ const HeaderBottom = () => {
                         <p>Immediate and life-saving medical attention with a dedicated emergency</p>
                     </div>
                 </div>
-                <div className="card bg-base-100 dark:bg-white dark:text-black shadow-2xl">
+                <div className="card bg-base-100 dark:bg-white border-2 boder-[#02AB98] dark:text-black shadow-2xl">
                     <figure className="px-10 pt-10 text-5xl">
                         <FaPersonPregnant />
                     </figure>
