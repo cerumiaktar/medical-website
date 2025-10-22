@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -15,7 +16,7 @@ const Header = () => {
                         <p className="mb-5 md:w-6/12 dark:text-[#EAEAEA] mx-auto">
                         We are committed to providing trusted, compassionate care for every patient, ensuring that you receive the attention and expertise you deserve for a healthier, happier life.
                         </p>
-                        <button className="btn bg-white dark:border-none dark:text-black dark:hover:text-white text-lg">Contact Us</button>
+                        <Link to='/contact'><button className="btn bg-white dark:border-none dark:text-black dark:hover:text-white text-lg">Contact Us</button></Link>
                     </div>
                 </div>
             </div>
