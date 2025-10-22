@@ -15,7 +15,7 @@ const Header = () => {
                         <p className="mb-5 md:w-6/12 dark:text-[#EAEAEA] mx-auto">
                         We are committed to providing trusted, compassionate care for every patient, ensuring that you receive the attention and expertise you deserve for a healthier, happier life.
                         </p>
-                        <button className="btn bg-white dark:border-none dark:text-black dark:hover:text-white text-lg">Get Started</button>
+                        <button className="btn bg-white dark:border-none dark:text-black dark:hover:text-white text-lg">Contact Us</button>
                     </div>
                 </div>
             </div>
