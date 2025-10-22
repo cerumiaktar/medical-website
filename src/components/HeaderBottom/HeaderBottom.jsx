@@ -6,7 +6,7 @@ const HeaderBottom = () => {
     return (
         <div className="mt-12">
             <div className="flex flex-col md:flex-row gap-8 justify-between">
-                <div className="card bg-base-100 dark:bg-white dark:text-black shadow-2xl">
+                <div className="card bg-base-100 dark:bg-white border-2 boder-[#02AB98] dark:text-black shadow-2xl">
                     <figure className="px-10 pt-10 text-5xl">
                         <FaAmbulance />
                     </figure>
