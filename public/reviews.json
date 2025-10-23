@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "profile": "https://i.ibb.co.com/pBJzp1Wf/Ellipse-6.png",
+        "name": "Sadia Rahman",
+        "designation": "Patient – General Checkup",
+        "review_description": "The doctor was very kind and professional. Booking an appointment was super easy and quick!"
+    },
+    {
+        "id": 2,
+        "profile": "https://i.ibb.co.com/pBJzp1Wf/Ellipse-6.png",
+        "name": "Arif Hossain",
+        "designation": "Patient – Online Consultation",
+        "review_description": "I had a video consultation and it felt just like visiting a real clinic. Great experience overall!"
+    },
+    {
+        "id": 3,
+        "profile": "https://i.ibb.co.com/pBJzp1Wf/Ellipse-6.png",
+        "name": "Nusrat Jahan",
+        "designation": "Patient – Dental Care",
+        "review_description": "The platform is easy to use, and my dentist was very patient and helpful. Highly recommended!"
+    }
+]

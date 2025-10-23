@@ -1,12 +1,11 @@
 
 import Services from '../Services/Services';
-import Review from '../Review/Review';
 import BestDoctors from '../BestDoctors/BestDoctors';
 import ChooseUs from '../ChooseUs/ChooseUs';
 import Header from '../Header/Header';
-
 import HealthTips from '../HealthTips/HealthTips';
 import Featureds from '../Featureds/Featureds';
+import Reviews from '../Reviews/Reviews';
 
 
 const Home = () => {
@@ -17,7 +16,7 @@ const Home = () => {
             <Services></Services>
             <ChooseUs></ChooseUs>
             <BestDoctors></BestDoctors>
-            <Review></Review>
+            <Reviews></Reviews>
             <HealthTips></HealthTips>
         </div>
     );
