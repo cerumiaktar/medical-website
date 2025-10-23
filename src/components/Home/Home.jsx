@@ -4,15 +4,16 @@ import Review from '../Review/Review';
 import BestDoctors from '../BestDoctors/BestDoctors';
 import ChooseUs from '../ChooseUs/ChooseUs';
 import Header from '../Header/Header';
-import HeaderBottom from '../HeaderBottom/HeaderBottom';
+
 import HealthTips from '../HealthTips/HealthTips';
+import Featureds from '../Featureds/Featureds';
 
 
 const Home = () => {
     return (
         <div className='container mx-auto'>
             <Header></Header>
-            <HeaderBottom></HeaderBottom>
+            <Featureds></Featureds>
             <Services></Services>
             <ChooseUs></ChooseUs>
             <BestDoctors></BestDoctors>
