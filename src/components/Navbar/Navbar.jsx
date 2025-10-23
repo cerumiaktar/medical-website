@@ -43,8 +43,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link to='/login'><button className="btn md:text-lg bg-[#46C9BA] dark:border-none dark:text-black dark:hover:text-white mr-4">Login</button></Link>
-                    <Link><button className="btn md:text-lg dark:border-none dark:text-black dark:hover:text-white bg-[#46C9BA]">Appointment</button></Link>
+                    <Link to='/login'><button className="btn md:text-lg bg-[#0341C9] text-white dark:border-none hover:bg-[#38BDF8] mr-4">Login</button></Link>
+                    <Link><button className="btn md:text-lg dark:border-none hover:bg-[#38BDF8] text-white  dark:hover:text-white bg-[#0341C9]">Appointment</button></Link>
                 </div>
             </div>
         </div>
