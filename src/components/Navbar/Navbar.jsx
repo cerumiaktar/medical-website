@@ -44,7 +44,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
                     <Link to='/login'><button className="btn md:text-lg bg-[#46C9BA] dark:border-none dark:text-black dark:hover:text-white mr-4">Login</button></Link>
-                    <Link to='/signUp'><button className="btn md:text-lg dark:border-none dark:text-black dark:hover:text-white bg-[#46C9BA]">Sign up</button></Link>
+                    <Link><button className="btn md:text-lg dark:border-none dark:text-black dark:hover:text-white bg-[#46C9BA]">Appointment</button></Link>
                 </div>
             </div>
         </div>
