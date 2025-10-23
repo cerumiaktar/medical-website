@@ -7,7 +7,7 @@ const Services = () => {
 
     const [services, setServices] = useState([]);
 
-    const [servicesLength, setServicesLength] = useState([4]);
+    const [servicesLength, setServicesLength] = useState([6]);
 
     useEffect(()=>{
         fetch('services.json')
@@ -20,7 +20,7 @@ const Services = () => {
                 <h1 className="text-2xl dark:text-black font-medium">Our Services</h1>
                 <p className="text-xl dark:text-[#333333]"><Link to='/services'>See all</Link></p>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="grid grid-cols-2 md:grid-cols-6 gap-8">
                 {
                     services.slice(0,servicesLength).map(service =><Service service={service}></Service> )
                 }

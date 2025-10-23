@@ -13,11 +13,8 @@ const BestDoctor = ({ doctor }) => {
                 <div className="card-body text-center">
                     <h2 className="card-title font-medium mx-auto">{name}</h2>
                     <p className="text-base font-medium">{designation}</p>
-                    <div className="flex items-center gap-4 mt-2 justify-center">
-                        <a className="bg-[#46C9BA] p-2 rounded-full" href="#"><FaFacebookF /></a>
-                        <a className="bg-[#46C9BA] p-2 rounded-full" href="#"><FaLinkedinIn /></a>
-                        <a className="bg-[#46C9BA] p-2 rounded-full" href="#"><FaInstagram /></a>
-                        <a className="bg-[#46C9BA] p-2 rounded-full" href="#"><FaRegUser /></a>
+                    <div>
+                        <button className="btn w-full text-white bg-[#0341C9] hover:bg-[#38BDF8]">Book Appointment</button>
                     </div>
                 </div>
             </div>
