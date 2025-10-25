@@ -34,7 +34,7 @@ const SignUp = () => {
                                 <p>agree our <Link to='/terms' className="text-blue-800">terms & condition</Link></p>
                             </div>
                             <div className="form-control">
-                                <button className="btn bg-[#46C9BA] dark:text-black dark:border-none dark:hover:text-white">Sign Up</button>
+                                <button className="btn bg-[#0341C9] hover:bg-[#38BDF8] text-white dark:border-none">Sign Up</button>
                             </div>
                             <p className="dark:text-[#333333]">Already have an account <Link to='/login' className="text-blue-600 font-medium">Login</Link></p>
                         </form>
