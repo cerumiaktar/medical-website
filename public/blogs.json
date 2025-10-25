@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co.com/ZmrDTnm/h-1.png",
+        "title": "Human",
+        "description": "Component has a figure, a body part, and inside body there are title and description."
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co.com/8XHHvL0/h-2.png",
+        "title": "Brain",
+        "description": "Responsible for thinking, learning, and controlling all body actions."
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co.com/G0vBXPT/h-3.png",
+        "title": "Heart",
+        "description": "Pumps blood throughout the body and keeps you alive and energetic."
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co.com/41s40TR/h-4.png",
+        "title": "Lungs",
+        "description": "Help you breathe by taking in oxygen and removing carbon dioxide."
+    }
+]
