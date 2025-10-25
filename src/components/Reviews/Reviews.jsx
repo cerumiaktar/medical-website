@@ -17,7 +17,7 @@ const Reviews = () => {
                 <h1 className="text-2xl dark:text-black font-medium">Customer Stories That Inspire</h1>
             </div>
             <Marquee>
-                <div className='flex flex-col md:flex-row justify-between'>
+                <div className='flex md:flex-row justify-between'>
                     {
                         reviews.map((review) => <Review review={review}></Review>)
                     }

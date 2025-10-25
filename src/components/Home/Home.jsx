@@ -6,6 +6,7 @@ import Header from '../Header/Header';
 import HealthTips from '../HealthTips/HealthTips';
 import Featureds from '../Featureds/Featureds';
 import Reviews from '../Reviews/Reviews';
+import Faq from '../Faq/Faq';
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
             <BestDoctors></BestDoctors>
             <Reviews></Reviews>
             <HealthTips></HealthTips>
+            <Faq></Faq>
         </div>
     );
 };
