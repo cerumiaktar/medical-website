@@ -14,7 +14,7 @@ const BestDoctor = ({ doctor }) => {
                     <h2 className="card-title font-medium mx-auto">{name}</h2>
                     <p className="text-base font-medium">{designation}</p>
                     <div>
-                        <button className="btn w-full text-white bg-[#0341C9] hover:bg-[#38BDF8]">Book an Appointment</button>
+                        <button className="btn w-full text-white bg-[#0341C9] dark:border-none hover:bg-[#38BDF8]">Book an Appointment</button>
                     </div>
                 </div>
             </div>

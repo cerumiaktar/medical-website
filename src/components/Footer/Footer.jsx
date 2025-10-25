@@ -3,16 +3,16 @@ import { FaFacebook,FaLinkedin, FaYoutube  } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <div className="bg-[#46C9BA]">
+        <div className="bg-[#0341C9]">
             <footer className="footer container mx-auto text-base-content p-10">
                 <nav>
-                    <h6 className="text-2xl font-medium dark:text-black">About</h6>
+                    <h6 className="text-2xl font-medium text-white">About</h6>
                     <a className="link link-hover dark:text-[#333333]">Home</a>
                     <a className="link link-hover dark:text-[#333333]">Blog</a>
                     <a className="link link-hover dark:text-[#333333]">FAQ</a>
                 </nav>
                 <nav>
-                    <h6 className="text-2xl font-medium dark:text-black">Contact</h6>
+                    <h6 className="text-2xl font-medium text-white">Contact</h6>
                     <a className="link link-hover dark:text-[#333333]">Address: Dhaka, Bangladesh</a>
                     <a className="link link-hover dark:text-[#333333]">Phone: ++0131234567891</a>
                     <a className="link link-hover dark:text-[#333333]">Email: info@gmail.com</a>
