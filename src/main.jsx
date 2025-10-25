@@ -16,6 +16,7 @@ import AllServices from './components/AllServices/AllServices.jsx';
 import Contact from './components/Contact/Contact.jsx';
 import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
 import Terms from './components/Terms/Terms.jsx';
+import AllBlogs from './components/AllBlogs/AllBlogs.jsx';
 
 const router = createBrowserRouter([
   {
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
       {
         path:'/terms',
         element:<Terms></Terms>
+      },
+      {
+        path:'/blogs',
+        element:<AllBlogs></AllBlogs>
       }
     ]
   },
