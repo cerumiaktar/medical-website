@@ -1,71 +1,27 @@
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import HealthTip from "./HealthTip";
 
 
 const HealthTips = () => {
+    const [blogs, setBlogs] = useState([]);
+    const [blogLength, setBlogLength] = useState([4]);
+
+    useEffect(() =>{
+        fetch('blogs.json')
+        .then(res =>res.json())
+        .then(data=>setBlogs(data))
+    } ,[])
     return (
         <div className="mb-12">
-            <h1 className="text-2xl font-medium text-center dark:text-black">Health Tips</h1>
-            <div className="flex flex-col md:flex-row gap-6 mt-4">
-                <div className="card bg-base-100 dark:bg-white w-96 shadow-xl">
-                    <figure>
-                        <img
-                            src="https://i.ibb.co.com/ZmrDTnm/h-1.png"
-                            alt="Shoes" />
-                    </figure>
-                    <div className="card-body">
-                        <h2 className="card-title dark:text-black">10 Daily Habits to Transform Your Health</h2>
-                        <p className="dark:text-[#333333]">Discover simple yet effective daily habits that can help you stay healthy, feel energized, and improve your overall well-being.</p>
-                        <div className="card-actions ">
-                            <button className="btn bg-[#46C9BA] w-full dark:border-none dark:text-black dark:hover:text-white text-lg">Read More</button>
-                        </div>
-                    </div>
-                </div>
-                <div className="card bg-base-100 dark:bg-white w-96 shadow-xl">
-                    <figure>
-                        <img
-                            src="https://i.ibb.co.com/8XHHvL0/h-2.png"
-                            alt="Shoes" />
-                    </figure>
-                    <div className="card-body">
-                        <h2 className="card-title dark:text-black">Eating Healthy on a Budget Tips and Tricks</h2>
-                        <p className="dark:text-[#333333]">Discover simple yet effective daily habits that can help you stay healthy, feel energized, and improve your overall well-being.</p>
-                        <div className="card-actions ">
-                            <button className="btn bg-[#46C9BA] dark:border-none dark:text-black dark:hover:text-white w-full text-lg">Read More</button>
-                        </div>
-                    </div>
-                </div>
-                <div className="card bg-base-100 dark:bg-white w-96 shadow-xl">
-                    <figure>
-                        <img
-                            src="https://i.ibb.co.com/G0vBXPT/h-3.png"
-                            alt="Shoes" />
-                    </figure>
-                    <div className="card-body">
-                        <h2 className="card-title dark:text-black">The Science of Sleep Why Rest is the Best Medicine</h2>
-                        <p className="dark:text-[#333333]">Discover simple yet effective daily habits that can help you stay healthy, feel energized, and improve your overall well-being.</p>
-                        <div className="card-actions ">
-                            <button className="btn bg-[#46C9BA] w-full dark:border-none dark:text-black dark:hover:text-white text-lg">Read More</button>
-                        </div>
-                    </div>
-                </div>
-                <div className="card bg-base-100 dark:bg-white w-96 shadow-xl">
-                    <figure>
-                        <img
-                            src="https://i.ibb.co.com/41s40TR/h-4.png"
-                            alt="Shoes" />
-                    </figure>
-                    <div className="card-body">
-                        <h2 className="card-title dark:text-black">Boost Your Nutrition with a Handful of Mixed Nuts</h2>
-                        <p className="dark:text-[#333333]">Discover simple yet effective daily habits that can help you stay healthy, feel energized, and improve your overall well-being.</p>
-                        <div className="card-actions ">
-                            <button className="btn bg-[#46C9BA] dark:border-none dark:text-black dark:hover:text-white w-full text-lg">Read More</button>
-                        </div>
-                    </div>
-                </div>
+            <div className="flex justify-between items-center mb-6">
+                <h1 className="text-2xl font-medium dark:text-black">Health Tips</h1>
+                <p className="text-xl dark:text-[#333333]"><Link to='/blogs'>See all</Link></p>
             </div>
-            <div className="flex justify-center mt-4 gap-2">
-                <div className="w-3 h-3 bg-[#46C9BA] rounded-full"></div>
-                <div className="w-3 h-3 bg-[#E5E7E8] rounded-full"></div>
-                <div className="w-3 h-3 bg-[#E5E7E8] rounded-full"></div>
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+                {
+                    blogs.slice(0, blogLength).map(blog =><HealthTip blog={blog}></HealthTip>)
+                }
             </div>
         </div>
     );

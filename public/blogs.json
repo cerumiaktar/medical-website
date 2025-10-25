@@ -2,25 +2,31 @@
     {
         "id": 1,
         "img": "https://i.ibb.co.com/ZmrDTnm/h-1.png",
-        "title": "Human",
-        "description": "Component has a figure, a body part, and inside body there are title and description."
+        "title": "10 Daily Habits to Transform Your Health",
+        "description": "Discover simple yet effective daily habits that can help you stay healthy, feel energized, and improve your overall well-being."
     },
     {
         "id": 2,
         "img": "https://i.ibb.co.com/8XHHvL0/h-2.png",
-        "title": "Brain",
-        "description": "Responsible for thinking, learning, and controlling all body actions."
+        "title": "Eating Healthy on a Budget Tips and Tricks",
+        "description": "Responsible for thinking, learning, and controlling all body actions.Discover simple yet effective daily habits that can help you stay healthy."
     },
     {
         "id": 3,
         "img": "https://i.ibb.co.com/G0vBXPT/h-3.png",
-        "title": "Heart",
-        "description": "Pumps blood throughout the body and keeps you alive and energetic."
+        "title": "The Science of Sleep Why Rest is the Best Medicine",
+        "description": "Pumps blood throughout the body and keeps you alive and energetic.controlling all body actions.Discover simple yet effective daily habits"
     },
     {
         "id": 4,
         "img": "https://i.ibb.co.com/41s40TR/h-4.png",
-        "title": "Lungs",
-        "description": "Help you breathe by taking in oxygen and removing carbon dioxide."
+        "title": "Boost Your Nutrition with a Handful of Mixed Nuts",
+        "description": "Help you breathe by taking in oxygen and removing carbon dioxide.that can help you stay healthy."
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co.com/41s40TR/h-4.png",
+        "title": "Boost Your Nutrition with a Handful of Mixed Nuts",
+        "description": "Help you breathe by taking in oxygen and removing carbon dioxide.that can help you stay healthy."
     }
 ]
