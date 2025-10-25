@@ -8,15 +8,22 @@
     },
     {
         "id": 2,
-        "profile": "https://i.ibb.co.com/pBJzp1Wf/Ellipse-6.png",
+        "profile": "https://i.ibb.co.com/S4qvF2TS/Ellipse-1-3.png",
         "name": "Arif Hossain",
         "designation": "Patient – Online Consultation",
         "review_description": "I had a video consultation and it felt just like visiting a real clinic. Great experience overall!"
     },
     {
         "id": 3,
-        "profile": "https://i.ibb.co.com/pBJzp1Wf/Ellipse-6.png",
+        "profile": "https://i.ibb.co.com/5gJJNBR4/Ellipse-1.png",
         "name": "Nusrat Jahan",
+        "designation": "Patient – Dental Care",
+        "review_description": "The platform is easy to use, and my dentist was very patient and helpful. Highly recommended!"
+    },
+    {
+        "id": 3,
+        "profile": "https://i.ibb.co.com/cKbp2ZMK/Ellipse-1-2.png",
+        "name": "Esther Howard",
         "designation": "Patient – Dental Care",
         "review_description": "The platform is easy to use, and my dentist was very patient and helpful. Highly recommended!"
     }
