@@ -4,7 +4,7 @@ const Service = ({ service }) => {
     const { img, title } = service;
     return (
         <div>
-            <div className="bg-white shadow-lg py-8 mt-4 border rounded-xl text-center">
+            <div className="bg-white hover:bg-[#0341C9] hover:text-white dark:hover:text-white shadow-lg py-8 mt-4 border rounded-xl text-center">
                 <img className="w-28 mx-auto" src={img} alt="" />
                 <h1 className="text-xl dark:text-black font-medium">{title}</h1>
             </div>
