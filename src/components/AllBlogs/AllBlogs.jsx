@@ -12,10 +12,16 @@ const AllBlogs = () => {
     }, [])
     return (
         <div className="container mx-auto mt-8 mb-12">
-            <h1 className="text-2xl font-medium text-center dark:text-black mb-6">Blogs</h1>
+            <div className="hero bg-[#0341C9] h-[300px] rounded-xl mb-6">
+                <div className="hero-content text-center">
+                    <div className="max-w-md">
+                        <h1 className="text-5xl font-bold text-white">Blogs</h1>
+                    </div>
+                </div>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                 {
-                    allBlogs.map(allblog =><AllBlog allblog={allblog}></AllBlog>)
+                    allBlogs.map(allblog => <AllBlog allblog={allblog}></AllBlog>)
                 }
             </div>
         </div>
