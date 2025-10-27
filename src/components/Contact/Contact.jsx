@@ -11,14 +11,22 @@ const Contact = () => {
                 </div>
             </div>
             <div className="bg-white shadow-xl rounded-lg border py-10 px-10 space-y-6">
-                <div className="w-full flex gap-6">
+                <div className="w-full">
+                    <label className="label">Email</label>
                     <input type="text" placeholder="Name" className="input border border-[#333333] w-6/12" />
-                    <input type="text" placeholder="Phone Number" className="input border border-[#333333] w-6/12" />
                 </div>
-                <div className="w-full flex gap-6">
-                    <button className="btn w-6/12 flex justify-between bg-white border-[#333333]">Reason for visit <span><FaAngleDown /></span></button>
-                    
+                <div className="w-full">
+                    <label className="label">Email</label>
                     <input type="text" placeholder="Name" className="input border border-[#333333] w-6/12" />
+                </div>
+                <div className="w-full">
+                    <label className="label">Email</label>
+                    <select defaultValue="Pick a color" className="select border border-[#333333] w-6/12">
+                        <option disabled={true}>Pick a color</option>
+                        <option>Crimson</option>
+                        <option>Amber</option>
+                        <option>Velvet</option>
+                    </select>
                 </div>
             </div>
             <div className="flex justify-center mt-32">
