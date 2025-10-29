@@ -45,7 +45,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
                     <Link to='/login'><button className="btn md:text-lg bg-[#0341C9] text-white dark:border-none hover:bg-[#38BDF8] mr-4">Login</button></Link>
-                    <Link><button className="btn md:text-lg dark:border-none hover:bg-[#38BDF8] text-white  dark:hover:text-white bg-[#0341C9]">Appointment</button></Link>
+                    <Link to='/contact'><button className="btn md:text-lg dark:border-none hover:bg-[#38BDF8] text-white  dark:hover:text-white bg-[#0341C9]">Appointment</button></Link>
                 </div>
             </div>
         </div>
