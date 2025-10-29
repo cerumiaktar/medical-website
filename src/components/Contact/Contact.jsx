@@ -11,21 +11,23 @@ const Contact = () => {
                 </div>
             </div>
             <div className="bg-white shadow-xl rounded-lg border py-10 px-10 space-y-6">
-                <div className="w-full">
-                    <label className="label">Email</label>
-                    <input type="text" placeholder="Name" className="input border border-[#333333] w-6/12" />
+                <div className="w-full flex items-center gap-6">
+                    <div className="w-6/12">
+                        <label className="label">Name</label>
+                        <input type="text" placeholder="Name" className="input border border-[#333333] w-full" />
+                    </div>
+                    <div className="w-6/12">
+                        <label className="label">Email</label>
+                        <input type="text" placeholder="Email" className="input border border-[#333333] w-full" />
+                    </div>
                 </div>
                 <div className="w-full">
-                    <label className="label">Email</label>
-                    <input type="text" placeholder="Name" className="input border border-[#333333] w-6/12" />
-                </div>
-                <div className="w-full">
-                    <label className="label">Email</label>
+                    <label className="label">Reason for visit</label>
                     <select defaultValue="Pick a color" className="select border border-[#333333] w-6/12">
-                        <option disabled={true}>Pick a color</option>
-                        <option>Crimson</option>
-                        <option>Amber</option>
-                        <option>Velvet</option>
+                        <option disabled={true}>Selec One</option>
+                        <option>Routine check-up</option>
+                        <option>Follow-up appointment</option>
+                        <option>Lab test or blood work</option>
                     </select>
                 </div>
             </div>
