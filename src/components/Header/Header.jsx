@@ -16,7 +16,7 @@ const Header = () => {
                         <p className="mb-5 md:w-6/12 dark:text-[#EAEAEA]">
                         We are committed to providing trusted, compassionate care for every patient, ensuring that you receive the attention and expertise you deserve for a healthier, happier life.
                         </p>
-                        <Link to='/contact'><button className="btn bg-white hover:bg-[#38BDF8] dark:border-none dark:text-black dark:hover:text-white text-lg translate-y-2 duration-300 ease-in-out">Contact Us</button></Link>
+                        <Link to='/contact'><button className="btn bg-white hover:bg-[#38BDF8] dark:border-none dark:text-black dark:hover:text-white text-lg hover:-translate-y-2 duration-300 ease-in-out">Contact Us</button></Link>
                     </div>
                 </div>
             </div>
